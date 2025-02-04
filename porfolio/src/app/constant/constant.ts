@@ -54,7 +54,7 @@ export const data =[
         desc:"This is hackathon project to build a Resume Builder with the help of HTML , CSS , TypeScript",
         image: resBul,
         tags:["HTML" ,"CSS"  , "TypeScript"],
-        url:"https://hackathon-project-miles-stone-05-resume-builder.vercel.app/"
+        url:"https://hackathon-milestone-5-task-2.vercel.app/"
     },
     {
         id:2,
