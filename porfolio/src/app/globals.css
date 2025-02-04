@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background: #000021;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+@layer components{
+    .tags{
+        background-color: #be185d;
+        margin-right: 0.5rem;
+        margin-top: 0.5rem;
+        padding: 3px 10px;
+        display: inline-block;
+        font-size: 1rem;
+        color: white;
+        font-weight: 700;
+        border-radius: 10px;
+        cursor: pointer;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .tags:hover{
+        background-color: #c92c6d;
+        transition: transform 0.4s ease-in-out;
+        transform: scale(1.1);
+    }
+}
